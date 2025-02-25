@@ -1,0 +1,151 @@
+/* Dinh dang tong the */
+body {
+  /* Font chu chung */
+  font-family: Arial, Helvetica, sans-serif;
+  /*mau nen tong the  */
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  /* can giua noi dung */
+  display: flex;
+  /* can giua theo chieu ngang */
+  justify-content: center;
+}
+
+/*Khung chua CV */
+.cv-container {
+  /* chia bo cuc thanh 2 phan */
+  display: flex;
+  /* chieu rong co dinh */
+  width: 800px;
+  /* mau nen */
+  background-color: #fff;
+  /* Do bong' */
+  box-shadow: 0px 0px 10px agba(0, 0, 0, 0.1);
+  /* Khoang cach dong */
+  margin: 20px 0;
+}
+
+/* Thanh ben trai */
+.sides {
+  /* chiem 30% trang web */
+  width: 30%;
+  background-color: rgb(163, 178, 84);
+  color: white;
+  /* tao khoang cach ben trong */
+  padding: 20px;
+  /* can giua noi dung */
+  text-align: left;
+}
+
+/* Anh dai dien */
+.profile-img {
+  /* kich thuoc co dinh */
+  width: 150px;
+  height: 150px;
+  /* bien anh thanh hinh tron */
+  border-radius: 50%;
+  /* cat anh vua khung khong bi meo */
+  object-fit: cover;
+  /* tao khoang cach duoi */
+  margin-bottom: 10px;
+}
+
+/* Dinh dang tieu de trong thong tin ca nhan*/
+.sides h3 {
+  /* Duong gach chan nhe */
+  border-bottom: 1px solid #ffffff55;
+  /* Khoang cach duoi tieu de */
+  padding-bottom: 5px;
+  /* Khoang cach giua cac phan */
+  margin-bottom: 10px;
+}
+
+/* Dinh dang danh sach */
+.sides ul {
+  /* Xoa het dau cham dau dong */
+  list-style: none;
+  padding: 0;
+}
+.soft_skills ul {
+  list-style: disc;
+}
+.skills ul {
+  list-style: disc;
+}
+.sp_skills ul {
+  list-style: disc;
+}
+.sides ul li {
+  padding: 5px;
+  /* Khoang cach giua cac muc */
+}
+
+/* dinh dang noi dung chinh */
+.main {
+  /* Chiem 70% */
+  width: 70%;
+  padding: 20px;
+}
+header {
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+header h1 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-left: 6px solid white;
+
+  margin: 0;
+  color: black;
+}
+header h2 {
+  border-left: 30px solid white;
+  margin: 5px 0;
+  color: rgb(16, 15, 15);
+  font-size: 18px;
+}
+section {
+  margin-top: 20px;
+}
+section h3 {
+  font-size: 20px;
+  color: black;
+
+  border-left: 4px solid white;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.Kinhnghiem ul {
+  padding-right: 20px;
+}
+.hocvan ul {
+  padding-left: 20px;
+}
+.sothich ul {
+  padding-right: 20px;
+}
+.Kinhnghiem ul li {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.hocvan ul li {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.sothich ul li {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+header p {
+  padding: 20px;
+}
+.hocvan ul {
+  list-style: none;
+}
+.muctieu p {
+  padding-left: 10px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
